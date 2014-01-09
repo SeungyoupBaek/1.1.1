@@ -21,6 +21,7 @@
 		00F2DA11187E33C400713837 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00F2D9F3187E33C400713837 /* UIKit.framework */; };
 		00F2DA19187E33C400713837 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 00F2DA17187E33C400713837 /* InfoPlist.strings */; };
 		00F2DA1B187E33C400713837 /* __1_1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00F2DA1A187E33C400713837 /* __1_1Tests.m */; };
+		00F2DA26187E347E00713837 /* Model.m in Sources */ = {isa = PBXBuildFile; fileRef = 00F2DA25187E347E00713837 /* Model.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		00F2DA16187E33C400713837 /* 1.1.1Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "1.1.1Tests-Info.plist"; sourceTree = "<group>"; };
 		00F2DA18187E33C400713837 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		00F2DA1A187E33C400713837 /* __1_1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = __1_1Tests.m; sourceTree = "<group>"; };
+		00F2DA24187E347E00713837 /* Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Model.h; sourceTree = "<group>"; };
+		00F2DA25187E347E00713837 /* Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Model.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +122,8 @@
 				00F2DA05187E33C400713837 /* ViewController.m */,
 				00F2DA07187E33C400713837 /* Images.xcassets */,
 				00F2D9F6187E33C400713837 /* Supporting Files */,
+				00F2DA24187E347E00713837 /* Model.h */,
+				00F2DA25187E347E00713837 /* Model.m */,
 			);
 			path = 1.1.1;
 			sourceTree = "<group>";
@@ -252,6 +257,7 @@
 				00F2DA06187E33C400713837 /* ViewController.m in Sources */,
 				00F2DA00187E33C400713837 /* AppDelegate.m in Sources */,
 				00F2D9FC187E33C400713837 /* main.m in Sources */,
+				00F2DA26187E347E00713837 /* Model.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
